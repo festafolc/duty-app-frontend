@@ -58,7 +58,7 @@ export const ListingList = () => {
                                     {(home.state) ? <li>State: {home.state}</li> : null}
                                     {(home.city) ? <li>City: {home.city}</li> : null}
                                     {(home.street) ? <li>Street: {home.street}</li> : null}
-                                    {(home.home_number) ? <li>Home number: {home.home_number}</li> : null}
+                                    {(home.street_number) ? <li>Street number: {home.street_number}</li> : null}
                                     {(home.floor) ? <li>Floor: {home.floor}</li> : null}
                                     {(home.door) ? <li>Door: {home.door}</li> : null}
                                     {(home.zipcode) ? <li>Zipcode: {home.zipcode}</li> : null}
